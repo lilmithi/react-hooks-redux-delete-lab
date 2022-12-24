@@ -10,6 +10,7 @@ function BandInput({ onBandSubmit }) {
   function handleSubmit(event) {
     event.preventDefault();
     onBandSubmit(name);
+    setName("");
   }
 
   return (
